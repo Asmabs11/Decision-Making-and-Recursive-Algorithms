@@ -1,0 +1,55 @@
+
+
+FUNCTION fibonacci (n:INTEGER) : INTEGER
+
+IF (n=0) THEN
+    write 0 ;
+IF (n=1) THEN
+    write 1 ;
+   Else 
+   write fib=n-1 + fib=n-2 ;
+   
+   END_IF
+
+
+   FUNCTION Power Function (n,p :INTEGER) : INTEGER
+   IF (p=0) THEN
+   write 1 ;
+   Else n*pow(n,p-1);
+   END_IF
+
+
+
+   FUNCTION ticket pricing : INTEGER
+
+  i=age
+
+IF (i<=12)  
+write price 10$ 
+Else_if (i>=13 and i<=17)
+write price 15$  
+Else (i>+18) 
+write price 20$  
+
+    
+END_IF
+
+ FUNCTION Leap Year Checker : INTEGER
+
+ if (year % 400 = 0) 
+    write true;
+  
+  
+  if (year % 100 = 0) 
+    write false;
+  
+
+  if (year % 4 = 0) 
+    write true;
+  
+ Else 
+  write false;
+
+ END_IF
+
+
